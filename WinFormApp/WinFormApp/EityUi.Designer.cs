@@ -1,6 +1,6 @@
 ﻿namespace WinFormApp
 {
-    partial class Sadek
+    partial class EityUi
     {
         /// <summary>
         /// Required designer variable.
@@ -33,21 +33,21 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(166, 53);
+            this.button1.Location = new System.Drawing.Point(259, 109);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 0;
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
             // 
-            // Sadek
+            // EityUi
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 261);
+            this.ClientSize = new System.Drawing.Size(658, 410);
             this.Controls.Add(this.button1);
-            this.Name = "Sadek";
-            this.Text = "Sadek";
+            this.Name = "EityUi";
+            this.Text = "EityUi";
             this.ResumeLayout(false);
 
         }
