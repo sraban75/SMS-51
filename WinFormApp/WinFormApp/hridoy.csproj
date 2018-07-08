@@ -44,6 +44,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="hridoy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hridoy.Designer.cs">
+      <DependentUpon>hridoy.cs</DependentUpon>
+    </Compile>
     <Compile Include="MethodFormUi.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -64,6 +70,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="hridoy.resx">
+      <DependentUpon>hridoy.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MethodFormUi.resx">
       <DependentUpon>MethodFormUi.cs</DependentUpon>
     </EmbeddedResource>
