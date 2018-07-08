@@ -44,6 +44,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
+=======
+    <Compile Include="dwip.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dwip.Designer.cs">
+      <DependentUpon>dwip.cs</DependentUpon>
+    </Compile>
+>>>>>>> 2adc6082d7d6e92ee9a5d0a0766404379331749c
     <Compile Include="MethodFormUi.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -70,6 +79,31 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+<<<<<<< HEAD
+=======
+
+
+    <Compile Include="Tanvir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tanvir.Designer.cs">
+      <DependentUpon>Tanvir.cs</DependentUpon>
+    </Compile>
+
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FarabiForm.resx">
+      <DependentUpon>FarabiForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hridoy.resx">
+      <DependentUpon>hridoy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dwip.resx">
+      <DependentUpon>dwip.cs</DependentUpon>
+
+    </EmbeddedResource>
+>>>>>>> 2adc6082d7d6e92ee9a5d0a0766404379331749c
     <EmbeddedResource Include="MethodFormUi.resx">
       <DependentUpon>MethodFormUi.cs</DependentUpon>
     </EmbeddedResource>
@@ -91,6 +125,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Tanvir.resx">
+      <DependentUpon>Tanvir.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
