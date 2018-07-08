@@ -50,6 +50,12 @@
     <Compile Include="MethodFormUi.Designer.cs">
       <DependentUpon>MethodFormUi.cs</DependentUpon>
     </Compile>
+    <Compile Include="Sraban75Ui.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sraban75Ui.Designer.cs">
+      <DependentUpon>Sraban75Ui.cs</DependentUpon>
+    </Compile>
     <Compile Include="StudentEntryUi.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -60,6 +66,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="MethodFormUi.resx">
       <DependentUpon>MethodFormUi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sraban75Ui.resx">
+      <DependentUpon>Sraban75Ui.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="StudentEntryUi.resx">
       <DependentUpon>StudentEntryUi.cs</DependentUpon>
