@@ -44,11 +44,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD:WinFormApp/WinFormApp/WinFormApp.csproj
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+=======
+    <Compile Include="FarabiForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FarabiForm.Designer.cs">
+      <DependentUpon>FarabiForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="hridoy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hridoy.Designer.cs">
+      <DependentUpon>hridoy.cs</DependentUpon>
+>>>>>>> 428eeec9322ac27c31ad7e3f0b3333bff646a85d:WinFormApp/WinFormApp/hridoy.csproj
     </Compile>
     <Compile Include="MethodFormUi.cs">
       <SubType>Form</SubType>
@@ -70,8 +84,16 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+<<<<<<< HEAD:WinFormApp/WinFormApp/WinFormApp.csproj
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+=======
+    <EmbeddedResource Include="FarabiForm.resx">
+      <DependentUpon>FarabiForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hridoy.resx">
+      <DependentUpon>hridoy.cs</DependentUpon>
+>>>>>>> 428eeec9322ac27c31ad7e3f0b3333bff646a85d:WinFormApp/WinFormApp/hridoy.csproj
     </EmbeddedResource>
     <EmbeddedResource Include="MethodFormUi.resx">
       <DependentUpon>MethodFormUi.cs</DependentUpon>
