@@ -44,6 +44,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EityUi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EityUi.Designer.cs">
+      <DependentUpon>EityUi.cs</DependentUpon>
+    </Compile>
     <Compile Include="MethodFormUi.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -64,6 +70,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="EityUi.resx">
+      <DependentUpon>EityUi.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MethodFormUi.resx">
       <DependentUpon>MethodFormUi.cs</DependentUpon>
     </EmbeddedResource>
