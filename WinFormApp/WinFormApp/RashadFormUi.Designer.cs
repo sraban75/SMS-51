@@ -27,35 +27,37 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.AddButton = new System.Windows.Forms.Button();
+            this.secondNumberTextBox = new System.Windows.Forms.TextBox();
+            this.firstNumberTextBox = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.resultLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // button1
+            // AddButton
             // 
-            this.button1.Location = new System.Drawing.Point(178, 182);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.AddButton.Location = new System.Drawing.Point(178, 231);
+            this.AddButton.Name = "AddButton";
+            this.AddButton.Size = new System.Drawing.Size(75, 23);
+            this.AddButton.TabIndex = 0;
+            this.AddButton.Text = "Add";
+            this.AddButton.UseVisualStyleBackColor = true;
+            this.AddButton.Click += new System.EventHandler(this.AddButton_Click);
             // 
-            // textBox1
+            // secondNumberTextBox
             // 
-            this.textBox1.Location = new System.Drawing.Point(178, 135);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 1;
+            this.secondNumberTextBox.Location = new System.Drawing.Point(178, 135);
+            this.secondNumberTextBox.Name = "secondNumberTextBox";
+            this.secondNumberTextBox.Size = new System.Drawing.Size(100, 20);
+            this.secondNumberTextBox.TabIndex = 1;
             // 
-            // textBox2
+            // firstNumberTextBox
             // 
-            this.textBox2.Location = new System.Drawing.Point(178, 76);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 1;
+            this.firstNumberTextBox.Location = new System.Drawing.Point(178, 76);
+            this.firstNumberTextBox.Name = "firstNumberTextBox";
+            this.firstNumberTextBox.Size = new System.Drawing.Size(100, 20);
+            this.firstNumberTextBox.TabIndex = 1;
             // 
             // label1
             // 
@@ -75,16 +77,25 @@
             this.label2.TabIndex = 2;
             this.label2.Text = "Second Number";
             // 
+            // resultLabel
+            // 
+            this.resultLabel.AutoSize = true;
+            this.resultLabel.Location = new System.Drawing.Point(175, 188);
+            this.resultLabel.Name = "resultLabel";
+            this.resultLabel.Size = new System.Drawing.Size(0, 13);
+            this.resultLabel.TabIndex = 3;
+            // 
             // RashadFormUi
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(445, 325);
+            this.Controls.Add(this.resultLabel);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.firstNumberTextBox);
+            this.Controls.Add(this.secondNumberTextBox);
+            this.Controls.Add(this.AddButton);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
@@ -101,11 +112,12 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Button AddButton;
+        private System.Windows.Forms.TextBox secondNumberTextBox;
+        private System.Windows.Forms.TextBox firstNumberTextBox;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label resultLabel;
 
     }
 }

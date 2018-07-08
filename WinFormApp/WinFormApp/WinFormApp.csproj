@@ -44,44 +44,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-
-    <Compile Include="EityUi.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="EityUi.Designer.cs">
-      <DependentUpon>EityUi.cs</DependentUpon>
-    </Compile>
-
-    <Compile Include="Form1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FarabiForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FarabiForm.Designer.cs">
-      <DependentUpon>FarabiForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="hridoy.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="hridoy.Designer.cs">
-      <DependentUpon>hridoy.cs</DependentUpon>
-
-    </Compile>
     <Compile Include="MethodFormUi.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="MethodFormUi.Designer.cs">
       <DependentUpon>MethodFormUi.cs</DependentUpon>
     </Compile>
-    <Compile Include="Sadek.cs">
+    <Compile Include="RashadFormUi.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Sadek.Designer.cs">
-      <DependentUpon>Sadek.cs</DependentUpon>
+    <Compile Include="RashadFormUi.Designer.cs">
+      <DependentUpon>RashadFormUi.cs</DependentUpon>
     </Compile>
     <Compile Include="Sraban75Ui.cs">
       <SubType>Form</SubType>
@@ -97,25 +70,11 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-
-    <EmbeddedResource Include="EityUi.resx">
-      <DependentUpon>EityUi.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FarabiForm.resx">
-      <DependentUpon>FarabiForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="hridoy.resx">
-      <DependentUpon>hridoy.cs</DependentUpon>
-
-    </EmbeddedResource>
     <EmbeddedResource Include="MethodFormUi.resx">
       <DependentUpon>MethodFormUi.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Sadek.resx">
-      <DependentUpon>Sadek.cs</DependentUpon>
+    <EmbeddedResource Include="RashadFormUi.resx">
+      <DependentUpon>RashadFormUi.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Sraban75Ui.resx">
       <DependentUpon>Sraban75Ui.cs</DependentUpon>
