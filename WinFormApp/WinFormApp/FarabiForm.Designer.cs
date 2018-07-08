@@ -1,6 +1,6 @@
 ﻿namespace WinFormApp
 {
-    partial class Tanvir
+    partial class FarabiForm
     {
         /// <summary>
         /// Required designer variable.
@@ -33,21 +33,21 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(159, 86);
+            this.button1.Location = new System.Drawing.Point(121, 64);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 0;
-            this.button1.Text = "Tanvir";
+            this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
             // 
-            // tanvir
+            // FarabiForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(448, 261);
+            this.ClientSize = new System.Drawing.Size(284, 261);
             this.Controls.Add(this.button1);
-            this.Name = "tanvir";
-            this.Text = "tanvir";
+            this.Name = "FarabiForm";
+            this.Text = "FarabiForm";
             this.ResumeLayout(false);
 
         }

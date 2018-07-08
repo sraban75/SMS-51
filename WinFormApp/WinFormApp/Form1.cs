@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace WinFormApp
 {
-    public partial class Tanvir : Form
+    public partial class Form1 : Form
     {
-        public Tanvir()
+        public Form1()
         {
             InitializeComponent();
         }
