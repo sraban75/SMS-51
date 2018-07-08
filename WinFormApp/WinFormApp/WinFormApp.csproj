@@ -50,11 +50,39 @@
     <Compile Include="dwip.Designer.cs">
       <DependentUpon>dwip.cs</DependentUpon>
     </Compile>
+    <Compile Include="EityUi.cs" />
+    <Compile Include="EityUi.Designer.cs">
+      <DependentUpon>EityUi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FarabiForm.cs" />
+    <Compile Include="FarabiForm.Designer.cs">
+      <DependentUpon>FarabiForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs" />
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs" />
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="hridoy.cs" />
+    <Compile Include="hridoy.Designer.cs">
+      <DependentUpon>hridoy.cs</DependentUpon>
+    </Compile>
     <Compile Include="MethodFormUi.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="MethodFormUi.Designer.cs">
       <DependentUpon>MethodFormUi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RashadFormUi.cs" />
+    <Compile Include="RashadFormUi.Designer.cs">
+      <DependentUpon>RashadFormUi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sadek.cs" />
+    <Compile Include="Sadek.Designer.cs">
+      <DependentUpon>Sadek.cs</DependentUpon>
     </Compile>
     <Compile Include="Sraban75Ui.cs">
       <SubType>Form</SubType>
@@ -70,30 +98,42 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-
-
     <Compile Include="Tanvir.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Tanvir.Designer.cs">
       <DependentUpon>Tanvir.cs</DependentUpon>
     </Compile>
-
+    <Compile Include="Tareq.cs" />
+    <Compile Include="Tareq.Designer.cs">
+      <DependentUpon>Tareq.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="EityUi.resx">
+      <DependentUpon>EityUi.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FarabiForm.resx">
       <DependentUpon>FarabiForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="hridoy.resx">
       <DependentUpon>hridoy.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="dwip.resx">
       <DependentUpon>dwip.cs</DependentUpon>
-
     </EmbeddedResource>
     <EmbeddedResource Include="MethodFormUi.resx">
       <DependentUpon>MethodFormUi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RashadFormUi.resx">
+      <DependentUpon>RashadFormUi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sadek.resx">
+      <DependentUpon>Sadek.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Sraban75Ui.resx">
       <DependentUpon>Sraban75Ui.cs</DependentUpon>
@@ -112,6 +152,9 @@
     </Compile>
     <EmbeddedResource Include="Tanvir.resx">
       <DependentUpon>Tanvir.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tareq.resx">
+      <DependentUpon>Tareq.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
