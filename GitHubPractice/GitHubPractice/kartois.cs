@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace GitHubPractice
 {
-    public partial class Form1 : Form
+    public partial class kartoisUI : Form
     {
-        public Form1()
+        public kartoisUI()
         {
             InitializeComponent();
         }
